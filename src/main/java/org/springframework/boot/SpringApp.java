@@ -6,9 +6,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 		@SpringBootApplication
 		@RestController
-public class SpringApplication {
+public class SpringApp {
 	  public static void main(String[] args) {
-	        SpringApplication.run(SpringApplication.class, args);
+	        SpringApplication.run(SpringApp.class, args);
 	    }
 	    @RequestMapping("/")
 	    public String index() {
