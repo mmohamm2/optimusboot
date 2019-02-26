@@ -44,7 +44,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>org.boot.SpringbootApp</mainClass>
+            <mainClass>org/springframework/boot/SpringApplication</mainClass>
           </manifest>
         </archive>
       </configuration>
